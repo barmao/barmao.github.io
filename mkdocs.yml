@@ -1,0 +1,20 @@
+site_name: Barmao's Blog
+theme:
+  name: material
+  palette:
+    primary: 'indigo'
+    accent: 'pink'
+  font:
+    text: 'Roboto'
+    code: 'Roboto Mono'
+
+nav:
+  - Home: index.md
+  - About: about.md
+  - Blog:
+      - First Post: posts/first-post.md
+      - Second Post: posts/second-post.md
+
+plugins:
+  - search
+
